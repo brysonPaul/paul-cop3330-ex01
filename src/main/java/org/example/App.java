@@ -11,6 +11,7 @@ public class App
         Scanner scan = new Scanner(System.in);
         System.out.print("What is your name? ");
         String str = scan.nextLine();
-        System.out.println("Hello, " + str + ", nice to meet you!");
+        str = "Hello, " + str + ", nice to meet you!";
+        System.out.println(str);
     }
 }
